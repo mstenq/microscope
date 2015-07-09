@@ -1,3 +1,10 @@
+/*Custom Css*/
+span.glyphicon.glyphicon-search {
+  margin-top: -2px;
+}
+
+
+/*Example Css*/
 .grid-block, .main, .post, .comments li, .comment-form {
   background: #fff;
   border-radius: 3px;
@@ -21,7 +28,8 @@ body {
 }
 
 .navbar {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  border-radius: 0px 0px 3px 3px;  }
   /* line 32, ../sass/style.scss */
   .navbar .navbar-inner {
     border-radius: 0px 0px 3px 3px; }
