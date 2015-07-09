@@ -1,6 +1,7 @@
 Template.postEdit.events({
   "submit form": function(e){
-
+    e.preventDefault();
+    
     var currentPostId = this._id;
 
     var postProperties = {
